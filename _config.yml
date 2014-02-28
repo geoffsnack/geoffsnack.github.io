@@ -1,0 +1,4 @@
+name: Geoff Snack
+markdown: kramdown
+pygments: false
+exclude: ['vendor', 'hidden-posts']
