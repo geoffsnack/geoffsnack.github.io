@@ -182,8 +182,10 @@ a.simple-link:hover {
 }
 
 .avatar {
-  width: 100%;
-  height: auto;
+  width:  256px;
+  height: 256px;
+  border-radius: 50%;
+  border: 10px solid #efefef;
   display: block;
 }
 
@@ -203,7 +205,8 @@ a.simple-link:hover {
   }
 
   .avatar {
-    width: 128px;
+    width:  128px;
     height: 128px;
+    border-radius: 50%;
   }
 }
