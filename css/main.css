@@ -59,27 +59,36 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 130%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+  width: 40em;
+  margin: 2em auto;
+  line-height: 1em;
+}
+
+.page-home {
+  width: 17em;
 }
 
 .header a {
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
 }
 
 .title {
-  display: inline-block;
-  line-height: 1.2em;
-  font-size: 2em;
+  font-size: 140px;
+  text-rendering: optimizeLegibility;
+
+  display:    block;
+  text-align: center;
+
+  line-height: 1em;
   margin-bottom: 12px;
 }
 
 .title a {
-  color: #002b99;
+  color: #4f4f4f;
 }
 
 .title a:hover {
@@ -164,6 +173,12 @@ a:visited { color: #a0a; }
   background-color: #333;
 }
 
+/*****************************************************************************/
+/*
+/* homepage
+/*
+/*****************************************************************************/
+
 a.simple-link {
   color: #08c;
   text-decoration: none;
@@ -178,7 +193,7 @@ a.simple-link:hover {
 }
 
 .avatar-container {
-  width: 256px;
+  text-align: center;
 }
 
 .avatar {
@@ -186,8 +201,12 @@ a.simple-link:hover {
   height: 256px;
   border-radius: 50%;
   border: 10px solid #efefef;
-  display: block;
+  display: inline-block;
 }
+
+/**
+ * iphone
+ */
 
 @media screen and (max-width: 640px) {
   body {
@@ -200,13 +219,16 @@ a.simple-link:hover {
     margin-top: 12px;
   }
 
+  .title {
+    font-size: 80px;
+  }
+
   .avatar-container {
     width: 100%;
   }
 
   .avatar {
-    width:  128px;
-    height: 128px;
-    border-radius: 50%;
+    width:  200px;
+    height: 200px;
   }
 }
