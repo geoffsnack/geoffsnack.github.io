@@ -79,6 +79,7 @@ a:visited { color: #a0a; }
 .title {
   font-size: 140px;
   text-rendering: optimizeLegibility;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;;
 
   display:    block;
   text-align: center;
